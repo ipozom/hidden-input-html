@@ -1,0 +1,26 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Hidden Input Detection Test</h1>
+    <p>This page includes both static and dynamically generated hidden HTML input elements for Checkmarx One scanning.</p>
+</div>
+
+<section>
+    <h2>Static hidden input</h2>
+    <form method="post">
+        <input type="hidden" name="LegacyToken" value="legacy-value" />
+        <input type="hidden" name="UnusedField" value="unused-value" />
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</section>
+
+<section>
+    <h2>Dynamically generated hidden inputs</h2>
+    <p>The following HTML is generated in C# and rendered with <code>@@Html.Raw(...)</code>:</p>
+    @Html.Raw(Model.GeneratedHiddenInputHtml)
+    @Html.Raw(Model.BuildHiddenInput())
+</section>
