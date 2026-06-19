@@ -28,3 +28,4 @@ C:\Users\ipozo\Documents\projects\hidden-input-html\HiddenInputHtmlApp\obj\Debug
 C:\Users\ipozo\Documents\projects\hidden-input-html\HiddenInputHtmlApp\obj\Debug\net8.0\HiddenInputHtmlApp.pdb
 C:\Users\ipozo\Documents\projects\hidden-input-html\HiddenInputHtmlApp\obj\Debug\net8.0\HiddenInputHtmlApp.genruntimeconfig.cache
 C:\Users\ipozo\Documents\projects\hidden-input-html\HiddenInputHtmlApp\obj\Debug\net8.0\ref\HiddenInputHtmlApp.dll
+C:\Users\ipozo\Documents\projects\hidden-input-html\HiddenInputHtmlApp\obj\Debug\net8.0\HiddenInputHtmlApp.sourcelink.json

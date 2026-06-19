@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HiddenInputHtmlApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57a379bbafdc68a5951e26e8b8b2c22d203faaa7")]
 [assembly: System.Reflection.AssemblyProductAttribute("HiddenInputHtmlApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HiddenInputHtmlApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
