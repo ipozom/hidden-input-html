@@ -24,7 +24,7 @@ public class IndexModel : PageModel
         // Example of hidden input generation using string concatenation.
         var name = "HiddenLegacy";
         var value = "legacy-generated";
-        // Test
+        
         return $"<input type=\"hidden\" name=\"{name}\" value=\"{value}\" />";
     }
 }
